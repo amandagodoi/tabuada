@@ -1,0 +1,89 @@
+body {
+    background-color: rgba(32, 121, 62, 0.801);
+    font-family: Noto Sans, sans-serif;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.enunciado {
+background-color: azure;
+width: 450px;
+text-align: center;
+margin:auto;
+padding-bottom: 0px;
+padding-top: 1px;
+margin-top: 60px;
+font-size: 15px;
+
+}
+
+#numero {
+    background-color: rgba(170, 202, 181, 0.801);
+    border-radius: 2px;
+    border: 2px solid #929292;
+    width: 40px;
+    text-align: center;
+    
+}
+
+#recebeNumero {
+    background-color: rgba(32, 121, 62, 0.801);
+    color:#000000;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: DejaVu Sans Mono, monospace;
+    text-transform: uppercase;
+    border: 2px solid rgb(143, 138, 138);
+}
+
+#limpaTela {
+    background-color: rgba(32, 121, 62, 0.801);
+    color:#000000;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: DejaVu Sans Mono, monospace;
+    text-transform: uppercase;
+    border: 2px solid rgb(143, 138, 138);
+}
+
+.divTabela {
+    background-color: azure;
+    width: 450px;
+    height: 400px;
+    border-top: 3px solid rgba(32, 121, 62, 0.801);
+    
+}
+
+thead{
+    background-color: rgba(32, 121, 62, 0.801);
+}
+
+.tabela {
+    background-color: rgba(170, 202, 181, 0.801);
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    margin:auto;
+   /* Centraliza sua tabela */
+    text-align: center;
+    /*alinha texto no centro*/
+   
+}
+
+table {
+    border-collapse: collapse;
+    /*adiciona borda nas células*/
+    border-style: hidden;
+}
+
+td {
+    border: 1px solid rgb(133, 129, 129);
+}
+
+th {
+    border: 1px solid rgb(133, 129, 129);
+    padding: 7px;
+}
